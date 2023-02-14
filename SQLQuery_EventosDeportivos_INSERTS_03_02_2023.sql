@@ -1,6 +1,8 @@
 USE DB_EventosDeportivos;
 GO
 
+
+--HOLA MUDNO
 --2 INSERT INTO a 'tbUsuarios'
 DECLARE @Pass AS NVARCHAR(MAX);
 DECLARE @Clave AS NVARCHAR(250);
