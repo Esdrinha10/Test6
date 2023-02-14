@@ -9,7 +9,7 @@ DROP DATABASE DB_EventosDeportivos;
 GO
 */
 
-
+--Hello World 22
 
 --ESDRA TEST
 USE DB_EventosDeportivos;
@@ -359,6 +359,6 @@ GO
 DECLARE @FechaCrea AS DATETIME;
 SET @FechaCrea = GETDATE();
 
-EXEC UDP_Insert '0501200306789', 'Fernanda', 'Motiño', 'F', 'S', '10-17-2003', '0511', 'Res. Las Colinas', '+504 9884-5162', 'fernanda17@gmail.com', 1, @FechaCrea
+EXEC UDP_Insert '0501200306789', 'Fernanda', 'MotiÃ±o', 'F', 'S', '10-17-2003', '0511', 'Res. Las Colinas', '+504 9884-5162', 'fernanda17@gmail.com', 1, @FechaCrea
 GO
 */
