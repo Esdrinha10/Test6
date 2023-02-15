@@ -1,6 +1,6 @@
 USE DB_EventosDeportivos;
 GO
-
+--hola hola holoa
 
 --HOLA MUDNO
 --2 INSERT INTO a 'tbUsuarios'
