@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+
+namespace Calficaciones.Clases
+{
+    
+    public class cnxBaseDatos
+    {
+        SqlConnection cnx = new SqlConnection();
+        string con = "";
+
+        public void Conexion()
+        {
+            con = @"data source=DESKTOP-D91QQLL\SQLEXPRESS; initial catalog = Calificaciones; user id=ECERNA; password= ECERNA";
+            cnx.ConnectionString = con;
+        }
+
+        public SqlConnection ObtenerCnx()
+        {
+            Conexion();
+            return cnx;
+        }
+
+    }
+}
